@@ -11,6 +11,7 @@ The app shows quotes along with their authors in a clean, scrollable list.
 - Scrollable list of quotes
 - Each quote displays the quote text and author
 - Quotes are loaded from a local JSON file
+<img width="272" alt="Screenshot 2025-04-26 at 6 55 41 PM" src="https://github.com/user-attachments/assets/faf27187-6d93-4e9f-83c4-716c8fb687bd" />
 
 ---
 
@@ -98,5 +99,5 @@ This app provides a simple foundation that can be expanded with more features li
 
 | Image 1 Title | Image 2 Title |
 |---|---|
-| ![](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4) | ![](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4) |
+| ![](https://github.com/user-attachments/assets/faf27187-6d93-4e9f-83c4-716c8fb687bd) | ![](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4) |
 
