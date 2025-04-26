@@ -34,10 +34,10 @@ import java.nio.file.WatchEvent
 
 
 @Composable
-fun QuoteListItem(quote: Quote, onClick: () -> Unit){
+fun QuoteListItem(quote: Quote, onClick: (quote: Quote) -> Unit){
     Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
-        modifier = Modifier.padding(8.dp).clickable{onClick()}
+        modifier = Modifier.padding(8.dp).clickable{onClick(quote)}
     ) {
 
             Row(modifier = Modifier.padding(16.dp)) {

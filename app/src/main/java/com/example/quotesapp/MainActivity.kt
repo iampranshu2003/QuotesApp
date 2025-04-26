@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.quotesapp.screens.QuoteDetail
 import com.example.quotesapp.screens.QuoteScreen
 import com.example.quotesapp.ui.theme.QuotesAppTheme
 import kotlinx.coroutines.CoroutineScope
@@ -41,8 +42,20 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App() {
     if (DataManager.isDataLoaded.value) {
-        QuoteScreen(data = DataManager.data) {
+
+        if (DataManager.currentPage.value == Pages.LISTING) {
+
+            QuoteScreen(data = DataManager.data) {
+
+                DataManager.switchPages(it)
+            }
         }
+        else{
+            DataManager.currentQuote?.let {
+                QuoteDetail(quote = it)
+            }
+        }
+
 
     }
     else{
@@ -53,5 +66,9 @@ fun App() {
             Text(text = "Loading...")
         }
     }
+}
+
+enum class Pages{
+    LISTING, DETAILS
 }
 
