@@ -81,7 +81,6 @@ The app shows quotes along with their authors in a clean, scrollable list.
 │   └── quotes.json          # Source quotes data
 ```
 
----
 
 ## 🔄 Code Flow
 1. App starts in `MainActivity`
@@ -96,3 +95,7 @@ The app shows quotes along with their authors in a clean, scrollable list.
 This app provides a simple foundation that can be expanded with more features like:
 - Favorite quotes
 - Sharing quotes
+
+- | image1title | image2title|
+|---|---|
+| [image1-link](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4) | [imag2link](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4)
