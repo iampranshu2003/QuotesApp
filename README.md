@@ -96,6 +96,7 @@ This app provides a simple foundation that can be expanded with more features li
 - Favorite quotes
 - Sharing quotes
 
-- | image1title | image2title|
+| Image 1 Title | Image 2 Title |
 |---|---|
-| https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4 | https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4
+| ![](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4) | ![](https://github.com/user-attachments/assets/0323da9a-ffa4-4b2f-9d79-d38412a085b4) |
+
